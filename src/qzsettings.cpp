@@ -793,6 +793,7 @@ const QString QZSettings::restore_specific_gear = QStringLiteral("restore_specif
 const QString QZSettings::skipLocationServicesDialog = QStringLiteral("skipLocationServicesDialog");
 const QString QZSettings::trainprogram_pid_pushy = QStringLiteral("trainprogram_pid_pushy");
 const QString QZSettings::min_inclination = QStringLiteral("min_inclination");
+const QString QZSettings::proform_performance_300i = QStringLiteral("proform_performance_300i");
 const QString QZSettings::proform_performance_400i = QStringLiteral("proform_performance_400i");
 const QString QZSettings::proform_treadmill_c700 = QStringLiteral("proform_treadmill_c700");
 const QString QZSettings::sram_axs_controller = QStringLiteral("sram_axs_controller");
@@ -1581,6 +1582,7 @@ QVariant allSettings[allSettingsCount][2] = {
     {QZSettings::skipLocationServicesDialog, QZSettings::default_skipLocationServicesDialog},
     {QZSettings::trainprogram_pid_pushy, QZSettings::default_trainprogram_pid_pushy},
     {QZSettings::min_inclination, QZSettings::default_min_inclination},
+    {QZSettings::proform_performance_300i, QZSettings::default_proform_performance_300i},
     {QZSettings::proform_performance_400i, QZSettings::default_proform_performance_400i},
     {QZSettings::proform_treadmill_c700, QZSettings::default_proform_treadmill_c700},
     {QZSettings::sram_axs_controller, QZSettings::default_sram_axs_controller},
